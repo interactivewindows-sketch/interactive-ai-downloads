@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="Descarga interactive ai para Windows, macOS y Linux.">
+  <title>interactive ai — descargas</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090b10;--panel:#11151e;--line:#252c39;--text:#f4f6fb;--muted:#a3adbd;--accent:#9bf0c4;--blue:#a9bcff}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -18%,#26364b 0,transparent 58%),var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}a{color:inherit}.wrap{width:min(980px,calc(100% - 32px));margin:auto}header{padding:22px 0;border-bottom:1px solid #ffffff12}.brand{display:flex;align-items:center;gap:12px;font-weight:750}.mark{width:38px;height:38px;display:grid;place-items:center;border:1px solid #ffffff32;border-radius:12px;color:var(--accent);font-size:21px}main{padding:70px 0 54px}.eyebrow{color:var(--accent);text-transform:uppercase;font-size:.78rem;font-weight:750;letter-spacing:.15em}h1{margin:14px 0;font-size:clamp(2.7rem,8vw,5.3rem);line-height:1.02;letter-spacing:-.055em}h1 span{color:var(--blue)}.intro{max-width:650px;color:var(--muted);font-size:1.1rem}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:36px 0 24px}.card{padding:22px;background:linear-gradient(145deg,#151b26,#0e1219);border:1px solid var(--line);border-radius:18px}.card h2{margin:0 0 6px;font-size:1.15rem}.card p{min-height:48px;margin:0 0 18px;color:var(--muted);font-size:.93rem}.button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 15px;border-radius:10px;background:var(--accent);color:#07130d;text-decoration:none;font-weight:800}.button:hover{filter:brightness(1.08)}.section{margin-top:42px}.section h2{font-size:1.3rem}.zip{display:inline-block;padding:13px 16px;border:1px solid var(--line);border-radius:12px;text-decoration:none;background:#ffffff08}.zip:hover{border-color:#9bf0c477}.notice{margin-top:26px;padding:15px 18px;border-left:3px solid #f0c879;background:#f0c8790c;color:#d5c9ae;border-radius:0 10px 10px 0;font-size:.92rem}footer{padding:24px 0 36px;border-top:1px solid #ffffff12;color:var(--muted);font-size:.88rem}@media(max-width:720px){.cards{grid-template-columns:1fr}.card p{min-height:0}main{padding-top:48px}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap brand"><span class="mark" aria-hidden="true">✳</span><span>interactive ai</span></div></header>
+  <main class="wrap">
+    <div class="eyebrow">Descargas</div>
+    <h1>Tu asistente local.<br><span>En tu ordenador.</span></h1>
+    <p class="intro">Descarga el instalador para tu sistema operativo. interactive ai usa Ollama para ejecutar modelos localmente.</p>
+    <section class="cards" aria-label="Instaladores por sistema operativo">
+      <article class="card"><h2>Windows</h2><p>Instalador por lotes. Requiere Windows con winget disponible.</p><a class="button" href="install-windows.bat" download>Descargar .bat</a></article>
+      <article class="card"><h2>macOS</h2><p>Instalador de macOS; usa Homebrew si está instalado.</p><a class="button" href="install-macos.command" download>Descargar .command</a></article>
+      <article class="card"><h2>Linux</h2><p>Instalador Bash. Puedes ejecutarlo desde una terminal.</p><a class="button" href="install-linux.sh" download>Descargar .sh</a></article>
+    </section>
+    <section class="section"><h2>Paquete de descargas</h2><a class="zip" href="https://github.com/interactivewindows-sketch/interactive-ai-downloads/archive/refs/heads/main.zip">Descargar los archivos como ZIP ↗</a></section>
+    <aside class="notice"><strong>Importante:</strong> estos son los instaladores compartidos. El servidor de la aplicación necesita además los recursos de interfaz <code>web/index.html</code> y <code>web/logo.jpg</code>; no están incluidos en este repositorio.</aside>
+  </main>
+  <footer><div class="wrap">Código y descargas · <a href="https://github.com/interactivewindows-sketch/interactive-ai-downloads">GitHub</a></div></footer>
+</body>
+</html>
